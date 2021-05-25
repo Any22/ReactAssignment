@@ -1,7 +1,7 @@
 import React from 'react';
 import './Business.css'
 
-const Business = ({business}) => {
+export const Business = ({business}) => {
 return (
     <div className="Business">
       <div className="image-container">
@@ -24,4 +24,3 @@ return (
     );
 }
 
-export default Business;
